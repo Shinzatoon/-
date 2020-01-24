@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ゲームレイヤー">
+      <UniqueIdentifier>{0c2c0d5f-aea8-47e5-8ed9-70c8db3ba189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲームレイヤー\シーン">
+      <UniqueIdentifier>{f7ee54f2-e78e-43e3-b3bf-abac29a04101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲームレイヤー\背景">
+      <UniqueIdentifier>{bf088f2b-8985-4f97-8f6a-4c8203d00c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲームレイヤー\フィールド">
+      <UniqueIdentifier>{03527819-b6ab-44d4-a60b-af2ee41804bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲームレイヤー\ライト">
+      <UniqueIdentifier>{9151564a-d3e3-447e-988d-8b26be5fc87a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲームレイヤー\プレイヤー">
+      <UniqueIdentifier>{2fe1e725-ea2e-47b8-8ca5-00912f700ee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲームレイヤー\エネミー">
+      <UniqueIdentifier>{037561a8-f2dd-422b-ae59-4f877db32063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="カメラ">
+      <UniqueIdentifier>{0a466cea-8e5d-42e1-abd9-907110843a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="パーティクル">
+      <UniqueIdentifier>{e16e055f-ea59-4c67-8d8b-68994d72cb53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="入力">
+      <UniqueIdentifier>{b6116a33-d653-42b6-ade8-5e3514ddc98b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲームレイヤー\メイン">
+      <UniqueIdentifier>{eda2ef0b-76e6-4c69-90c3-f4d3e6d772b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game.cpp">
+      <Filter>ゲームレイヤー\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultClass.cpp">
+      <Filter>ゲームレイヤー\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeClass.cpp">
+      <Filter>ゲームレイヤー\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleClass.cpp">
+      <Filter>ゲームレイヤー\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_A.cpp">
+      <Filter>ゲームレイヤー\エネミー</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_B.cpp">
+      <Filter>ゲームレイヤー\エネミー</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyBullet.cpp">
+      <Filter>ゲームレイヤー\エネミー</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>ゲームレイヤー\プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>ゲームレイヤー\プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>ゲームレイヤー\プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="reticle.cpp">
+      <Filter>ゲームレイヤー\プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGroundClass.cpp">
+      <Filter>ゲームレイヤー\背景</Filter>
+    </ClCompile>
+    <ClCompile Include="LightClass.cpp">
+      <Filter>ゲームレイヤー\ライト</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldClass.cpp">
+      <Filter>ゲームレイヤー\フィールド</Filter>
+    </ClCompile>
+    <ClCompile Include="ReticleClass.cpp">
+      <Filter>ゲームレイヤー\プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraClass.cpp">
+      <Filter>カメラ</Filter>
+    </ClCompile>
+    <ClCompile Include="WallClass.cpp">
+      <Filter>ゲームレイヤー\フィールド</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>パーティクル</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>入力</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ゲームレイヤー\メイン</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h">
+      <Filter>ゲームレイヤー\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultClass.h">
+      <Filter>ゲームレイヤー\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeClass.h">
+      <Filter>ゲームレイヤー\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleClass.h">
+      <Filter>ゲームレイヤー\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_A.h">
+      <Filter>ゲームレイヤー\エネミー</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_B.h">
+      <Filter>ゲームレイヤー\エネミー</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyBullet.h">
+      <Filter>ゲームレイヤー\エネミー</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>ゲームレイヤー\プレイヤー</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>ゲームレイヤー\プレイヤー</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>ゲームレイヤー\プレイヤー</Filter>
+    </ClInclude>
+    <ClInclude Include="reticle.h">
+      <Filter>ゲームレイヤー\プレイヤー</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGroundClass.h">
+      <Filter>ゲームレイヤー\背景</Filter>
+    </ClInclude>
+    <ClInclude Include="LightClass.h">
+      <Filter>ゲームレイヤー\ライト</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldClass.h">
+      <Filter>ゲームレイヤー\フィールド</Filter>
+    </ClInclude>
+    <ClInclude Include="ReticleClass.h">
+      <Filter>ゲームレイヤー\プレイヤー</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraClass.h">
+      <Filter>カメラ</Filter>
+    </ClInclude>
+    <ClInclude Include="WallClass.h">
+      <Filter>ゲームレイヤー\フィールド</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>パーティクル</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>入力</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ゲームレイヤー\メイン</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
