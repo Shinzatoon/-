@@ -48,7 +48,7 @@ public:
 	D3DXMATRIX			g_mtxView;				// ビューマトリックス
 	D3DXMATRIX			g_mtxProjection;		// プロジェクションマトリックス
 
-	float				g_Ofset = -400.0f;				// カメラの画角の変更
+	float				g_Ofset = 400.0f;				// カメラの画角の変更
 
 	HRESULT InitCamera(void);
 	void UpdateCamera(void);
